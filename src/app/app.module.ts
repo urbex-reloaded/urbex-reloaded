@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './shell/navbar/navbar.component';
 import { FooterComponent } from './shell/footer/footer.component';
 import { SectionHeroComponent } from './pages/home/section-hero/section-hero.component';
+import { SectionEventsComponent } from './pages/home/section-events/section-events.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SectionHeroComponent } from './pages/home/section-hero/section-hero.com
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    SectionHeroComponent
+    SectionHeroComponent,
+    SectionEventsComponent
   ],
   imports: [
     BrowserModule,
