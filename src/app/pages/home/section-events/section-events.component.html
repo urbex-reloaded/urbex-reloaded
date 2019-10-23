@@ -3,7 +3,9 @@
 <div class="section-content">
     <div class="row">
         <div class="col event" *ngFor="let event of events">
-            {{event.name}}
+            <h1>{{event.location}}</h1>
+            <br>
+            <p>{{event.description}}</p>
         </div>
     </div>
 </div>

@@ -9,15 +9,10 @@ export class SectionEventsComponent implements OnInit {
 
   events = [
     {
-      name: "test event jedna"
-    },
-    {
-      name: "test event dva"
-    },
-    {
-      name: "test event tri"
-    },
-  ]
+      endDate: new Date("11/11/2019 6:00:00").getTime(),
+      location: "Some place idk"
+    }
+  ];
 
   constructor() { }
 
