@@ -17,7 +17,7 @@
 .event-row {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     flex-basis: 50%;
     
     .event {
@@ -26,8 +26,7 @@
         background: var(--color-accent-l1);
         max-width: 960px;
 
-        margin-left: auto;
-        margin-right: auto;
+        margin: 8px auto;
 
         display: flex;
 
@@ -44,6 +43,12 @@
                 transform: translateY(-50%);
                 font-weight: bold;
                 font-size: 28px;
+            }
+        }
+
+        .event-details-col {
+            .event-description {
+                word-break: break-all;
             }
         }
     }
