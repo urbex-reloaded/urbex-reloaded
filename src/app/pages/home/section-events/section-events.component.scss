@@ -10,6 +10,8 @@
 .section-content {
     background: var(--color-bg-l3);
     color: var(--color-black);
+
+    padding-bottom: 48px;
 }
 
 .event-row {
@@ -20,5 +22,29 @@
     
     .event {
         width: 50%;
+
+        background: var(--color-accent-l1);
+        max-width: 960px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+
+        div {
+            padding: 4px 32px;
+        }
+
+        .event-time-col {
+            background: var(--color-accent-base);
+            .event-time {
+                text-align: center;
+                display: block;
+                margin-top: 50%;
+                transform: translateY(-50%);
+                font-weight: bold;
+                font-size: 28px;
+            }
+        }
     }
 }

@@ -10,7 +10,8 @@ export class SectionEventsComponent implements OnInit {
   events = [
     {
       endDate: new Date("11/11/2019 6:00:00").getTime(),
-      location: "Some place idk"
+      title: "Some place idk",
+      description: "Some event description idk lorem ipsum idk lulw"
     }
   ];
 

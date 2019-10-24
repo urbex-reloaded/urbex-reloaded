@@ -1,11 +1,16 @@
 <div class="section-edge"></div>
 
 <div class="section-content">
-    <div class="row">
-        <div class="col event" *ngFor="let event of events">
-            <h1>{{event.location}}</h1>
-            <br>
-            <p>{{event.description}}</p>
+    <div class="event-row">
+        <div class="event" *ngFor="let event of events">
+            <div class="event-time-col">
+                <span class="event-time">25:16:32</span>
+            </div>
+            <div class="event-details-col">
+                <h1 class="event-title">{{event.title}}</h1>
+                <p class="event-description">{{event.description}}</p>
+            </div>
+
         </div>
     </div>
 </div>
