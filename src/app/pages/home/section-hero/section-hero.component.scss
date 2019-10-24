@@ -23,7 +23,7 @@ mdb-carousel {
 
     background: linear-gradient(to bottom, var(--color-black), transparent);
 
-    .logo {
+    h1 {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -31,49 +31,7 @@ mdb-carousel {
         width: 100%;
 
         text-align: center;
-        font-family: "Major Mono Display", Arial, Helvetica, sans-serif;
-
-        h1 {
-            font-size: 100px;
-        }
-
-        .spacer {
-			display: block;
-			
-			width: 428px;
-
-			margin-left: 50%;
-			transform: translateX(-50%);
-			border-bottom: 2px solid var(--color-white);
-			
-			transition: all 0.5s ease;
-        }
-
-        .split-text {
-            h1 {
-                display: flex;
-                justify-content: center;
-                word-break: break-all;
-            }
-
-            &:hover {
-                .hidden {
-                    opacity: 1;
-                    max-width: 1em;
-                }
-
-                .spacer {
-					opacity: 1;
-                    width: 50vw;
-                }
-            }
-
-            .hidden {
-                max-width: 0;
-                opacity: 0;
-                transition: all 0.5s ease;
-            }
-        }
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
 
