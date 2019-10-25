@@ -51,6 +51,7 @@
         .event-details-col {
             .event-description {
                 word-break: break-all;
+                white-space: pre-wrap;
             }
         }
     }
