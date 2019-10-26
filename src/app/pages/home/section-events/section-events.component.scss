@@ -18,7 +18,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex-basis: 50%;
 
     transform: translateY(-96px);
     
@@ -32,23 +31,29 @@
 
         display: flex;
 
-        div {
-            padding: 4px 32px;
-        }
-
         .event-time-col {
             background: var(--color-accent-base);
+            padding: 4px 32px;
+            width: 25%;
+            display: inline-block;
+
             .event-time {
-                text-align: center;
                 display: block;
-                margin-top: 50%;
-                transform: translateY(-50%);
                 font-weight: bold;
                 font-size: 28px;
+                padding: 0;
+
+                div {
+                    word-break: keep-all;
+                    word-wrap: none;
+                }
             }
         }
 
         .event-details-col {
+            padding: 4px 32px;
+            width: 75%;
+
             .event-description {
                 word-break: break-all;
                 white-space: pre-wrap;

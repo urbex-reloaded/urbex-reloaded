@@ -1,6 +1,13 @@
 // Imports
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap'); // Logo font
 
+// Fonts
+
+@font-face {
+    src: url("./assets/aqua.ttf");
+    font-family: "Aqua";
+}
+
 // Global SCSS
 
 :root {
@@ -39,4 +46,6 @@ body {
     background-repeat: no-repeat;
 
     color: var(--color-text);
+
+    font-family: "Aqua";
 }
