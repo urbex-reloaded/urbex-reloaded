@@ -35,23 +35,19 @@
             background: var(--color-accent-base);
             padding: 4px 32px;
             width: 25%;
-            display: inline-block;
+            display: flex;
+            align-items: center;
 
             .event-time {
                 display: block;
                 font-weight: bold;
                 font-size: 28px;
                 padding: 0;
-
-                div {
-                    word-break: keep-all;
-                    word-wrap: none;
-                }
             }
         }
 
         .event-details-col {
-            padding: 4px 32px;
+            padding: 8px 32px;
             width: 75%;
 
             .event-description {
