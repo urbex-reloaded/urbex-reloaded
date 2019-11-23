@@ -2,7 +2,7 @@
 
 <div class="section-content">
     <div class="gallery-row">
-        <div class="gallery">
+        <div class="gallery" *ngFor="let i of [1,2,3]">
             <ng-image-slider [images]="imageObject" #nav></ng-image-slider>
         </div>
     </div>
