@@ -21,6 +21,7 @@
     "@angular/router": "~8.1.1",
     "angular-bootstrap-md": "^8.3.0",
     "mdbootstrap": "^4.8.10",
+    "ng-image-slider": "^2.2.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
