@@ -11,6 +11,8 @@ import { FooterComponent } from './shell/footer/footer.component';
 import { SectionHeroComponent } from './pages/home/section-hero/section-hero.component';
 import { SectionEventsComponent } from './pages/home/section-events/section-events.component';
 import { SectionRulesComponent } from './pages/home/section-rules/section-rules.component';
+import { SectionGalleryComponent } from './pages/home/section-gallery/section-gallery.component';
+import { SectionEshopComponent } from './pages/home/section-eshop/section-eshop.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SectionRulesComponent } from './pages/home/section-rules/section-rules.
     FooterComponent,
     SectionHeroComponent,
     SectionEventsComponent,
-    SectionRulesComponent
+    SectionRulesComponent,
+    SectionGalleryComponent,
+    SectionEshopComponent
   ],
   imports: [
     BrowserModule,

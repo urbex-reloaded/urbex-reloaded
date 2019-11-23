@@ -1,0 +1,33 @@
+.section-edge {
+  height: 68px;
+  background: var(--color-bg-l3);
+  clip-path: polygon(0% 80%, 100% 0%, 100% 100%, 0% 100%);
+  position: absolute;
+  margin-top: -68px;
+  width: 100%;
+}
+
+.section-content {
+  background: var(--color-bg-l3);
+  color: var(--color-black);
+
+  padding-bottom: 48px;
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  transform: translateY(-96px);
+
+  .gallery {
+    margin: 0 10vw;
+    width: 80vw;
+
+    background: var(--color-accent-l1);
+    min-height: 240px;
+
+    box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.75);
+  }
+}

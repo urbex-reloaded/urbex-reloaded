@@ -26,13 +26,13 @@
 }
 
 .rules-row {
-   /*  display: flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    flex-basis: 50%; */
+    flex-wrap: nowrap;
+    flex-basis: 50%;
 
     .rule-col {
-        width: calc(50% - 32px);
+        width: 100%;
         display: inline-block;
         box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.75);
         background: var(--color-accent-l1);
