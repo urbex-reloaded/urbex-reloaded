@@ -12,13 +12,16 @@
 // Global SCSS
 
 :root {
-    --color-bg-l3: #c7c7c7;
-    --color-bg-l2: #909090;
-    --color-bg-l1: #595959;
-    --color-bg-base: #222222;
-    --color-bg-d1: #191919;
-    --color-bg-d2: #111111;
-    --color-bg-d3: #080808;
+    //--color-bg-l3: #001c26;
+    --color-bg-l3: transparent;
+    --color-bg-l2: transparent;
+    --color-bg-l1: transparent;
+    --color-bg-base: transparent;
+    --color-bg-d1: transparent;
+    --color-bg-d2: transparent;
+    --color-bg-d3: transparent;
+
+    --color-bg-new: #423834;
 
     --color-accent-l3: #fff2bf;
     --color-accent-l2: #ffe67f;

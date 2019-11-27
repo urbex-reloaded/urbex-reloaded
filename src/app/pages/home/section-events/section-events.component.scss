@@ -67,7 +67,8 @@
 
             .event-description {
                 word-break: break-all;
-                white-space: pre-wrap;
+                white-space: pre-line;
+                vertical-align: middle;
             }
         }
     }
